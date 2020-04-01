@@ -111,6 +111,7 @@ page {
 .title {
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
+  visibility: hidden;
 }
 .box {
   display: flex;

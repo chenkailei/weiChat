@@ -3,7 +3,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#ccc",
-    "navigationBarTitleText": "还有几天放假?",
+    "navigationBarTitleText": "未来假期倒计时",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
@@ -12,8 +12,7 @@
     "selectedColor": "#333",
     "borderStyle": "white",
 
-    "list": [
-      {
+    "list": [{
         "text": "倒计时",
         "pagePath": "pages/index/main",
         "iconPath": "static/tabs/daojishi.png",

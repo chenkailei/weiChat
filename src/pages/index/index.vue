@@ -97,6 +97,35 @@ export default {
   created () {
     var dateArray = this.Data[this.number]
     this.filter(dateArray)
+
+    // 获取用户信息
+    // wx.login({
+    //   success (res) {
+    //     if (res.code) {
+    //       //发起网络请求
+    //       console.log(res)
+    //     } else {
+    //       console.log('登录失败！' + res.errMsg)
+    //     }
+    //   }
+    // })
+
+    // 开启权限
+    // wx.authorize({
+    //   // 通过scope指明申请获取哪种类型的权限
+    //   scope: 'scope.record',
+    //   success () {
+    //     // 用户已经同意小程序使用录音功能，后续调用 wx.startRecord 接口不会弹窗询问
+    //     wx.startRecord()
+    //   }
+    // })
+
+    // 扫码
+    // wx.scanCode({
+    //   success (res) {
+    //     console.log(res)
+    //   }
+    // })
   }
 }
 </script>
@@ -105,6 +134,7 @@ export default {
 .title {
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
+  visibility: hidden;
 }
 .box {
   display: flex;
