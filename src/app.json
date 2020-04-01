@@ -1,0 +1,31 @@
+{
+  "pages": ["pages/index/main", "pages/logs/main"],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ccc",
+    "navigationBarTitleText": "还有几天放假?",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [
+      {
+        "text": "倒计时",
+        "pagePath": "pages/index/main",
+        "iconPath": "static/tabs/daojishi.png",
+        "selectedIconPath": "static/tabs/daojishi-active.png"
+      },
+      {
+        "text": "已过完",
+        "pagePath": "pages/logs/main",
+        "iconPath": "static/tabs/rili.png",
+        "selectedIconPath": "static/tabs/rili-active.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}
