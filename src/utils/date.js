@@ -3,36 +3,6 @@ import {
 } from './index'
 
 export var date = [
-  // 2019
-  [{
-    name: '元旦',
-    time: '1月1日',
-    timestamp: timeToTimestamp('2019-1-1')
-  }, {
-    name: '除夕',
-    time: '2月4日',
-    timestamp: timeToTimestamp('2019-2-4')
-  }, {
-    name: '清明节',
-    time: '4月5日',
-    timestamp: timeToTimestamp('2019-4-5')
-  }, {
-    name: '劳动节',
-    time: '5月1日',
-    timestamp: timeToTimestamp('2019-5-1')
-  }, {
-    name: '端午节',
-    time: '6月7日',
-    timestamp: timeToTimestamp('2019-6-7')
-  }, {
-    name: '中秋节',
-    time: '9月13日',
-    timestamp: timeToTimestamp('2019-9-13')
-  }, {
-    name: '国庆节',
-    time: '10月1日',
-    timestamp: timeToTimestamp('2019-10-1')
-  }],
   // 2020
   [{
     name: '元旦',
@@ -122,5 +92,95 @@ export var date = [
     name: '国庆节',
     time: '10月1日',
     timestamp: timeToTimestamp('2022-10-1')
+  }],
+  // 2023
+  [{
+    name: '元旦',
+    time: '1月31日',
+    timestamp: timeToTimestamp('2023-1-31')
+  }, {
+    name: '除夕',
+    time: '1月21日',
+    timestamp: timeToTimestamp('2023-1-21')
+  }, {
+    name: '清明节',
+    time: '4月5日',
+    timestamp: timeToTimestamp('2023-4-5')
+  }, {
+    name: '劳动节',
+    time: '5月1日',
+    timestamp: timeToTimestamp('2023-4-29')
+  }, {
+    name: '端午节',
+    time: '6月22日',
+    timestamp: timeToTimestamp('2023-6-22')
+  }, {
+    name: '中秋节',
+    time: '9月29日',
+    timestamp: timeToTimestamp('2023-9-29')
+  }, {
+    name: '国庆节',
+    time: '10月1日',
+    timestamp: timeToTimestamp('2023-10-1')
+  }],
+    // 2024
+  [{
+    name: '元旦',
+    time: '1月1日',
+    timestamp: timeToTimestamp('2024-1-1')
+  }, {
+    name: '除夕',
+    time: '2月9日',
+    timestamp: timeToTimestamp('2024-2-9')
+  }, {
+    name: '清明节',
+    time: '4月4日',
+    timestamp: timeToTimestamp('2024-4-4')
+  }, {
+    name: '劳动节',
+    time: '5月1日',
+    timestamp: timeToTimestamp('2024-5-1')
+  }, {
+    name: '端午节',
+    time: '6月10日',
+    timestamp: timeToTimestamp('2024-6-10')
+  }, {
+    name: '中秋节',
+    time: '9月17日',
+    timestamp: timeToTimestamp('2024-9-17')
+  }, {
+    name: '国庆节',
+    time: '10月1日',
+    timestamp: timeToTimestamp('2024-10-1')
+  }],
+  // 2025
+  [{
+    name: '元旦',
+    time: '1月1日',
+    timestamp: timeToTimestamp('2025-1-1')
+  }, {
+    name: '除夕',
+    time: '1月28日',
+    timestamp: timeToTimestamp('2025-1-28')
+  }, {
+    name: '清明节',
+    time: '4月4日',
+    timestamp: timeToTimestamp('2025-4-4')
+  }, {
+    name: '劳动节',
+    time: '5月1日',
+    timestamp: timeToTimestamp('2025-5-1')
+  }, {
+    name: '端午节',
+    time: '5月31日',
+    timestamp: timeToTimestamp('2025-5-31')
+  }, {
+    name: '国庆节',
+    time: '10月1日',
+    timestamp: timeToTimestamp('2025-10-1')
+  }, {
+    name: '中秋节',
+    time: '10月6日',
+    timestamp: timeToTimestamp('2025-10-6')
   }],
 ]

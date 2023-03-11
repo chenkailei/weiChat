@@ -39,7 +39,7 @@ export default {
   data () {
     return {
       Data: date,
-      array: ['2019', '2020', '2021', '2022'],
+      array: ['2020', '2021', '2022', '2023', '2024', '2025'],
       data: [],
       today: new Date().getTime(),
       day: 86400000,
@@ -71,17 +71,23 @@ export default {
     PickerChange (e) {
       var year = this.array[e.mp.detail.value]
       switch (year) {
-        case '2019':
+        case '2020':
           this.number = 0
           break;
-        case '2020':
+        case '2021':
           this.number = 1
           break;
-        case '2021':
+        case '2022':
           this.number = 2
           break;
-        case '2022':
+        case '2023':
           this.number = 3
+          break;
+        case '2024':
+          this.number = 4
+          break;
+        case '2025':
+          this.number = 5
           break;
         default:
           break;
@@ -95,6 +101,8 @@ export default {
   },
 
   created () {
+    let now = new Date().getFullYear().toString();
+    this.number = now.substring(now.length-1)
     var dateArray = this.Data[this.number]
     this.filter(dateArray)
 
